@@ -30,6 +30,7 @@ public class Libro {
 	private Integer ejemplaresPrestados;
 	@Column(nullable = false)
 	private Integer ejemplaresRestantes;
+	
 
 	public Foto getFoto() {
 		return foto;
