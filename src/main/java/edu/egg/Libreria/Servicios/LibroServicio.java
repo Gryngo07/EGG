@@ -147,6 +147,10 @@ public class LibroServicio {
 		}
 		return libroRepositorio.buscarPorEditorial(nombreEditorial);
 	}
+
+	public void testMetodo(){
+		System.out.println("Borrenme");
+	}
 	
 }
 
