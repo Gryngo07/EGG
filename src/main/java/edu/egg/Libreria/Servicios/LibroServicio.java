@@ -146,6 +146,10 @@ public class LibroServicio {
 		}
 		return libroRepositorio.buscarPorEditorial(nombreEditorial);
 	}
+
+	public Object testGitEliminar(){
+		System.err.println("Soy un metodo de prueba, eliminame maldito. ");
+	}
 	
 }
 
